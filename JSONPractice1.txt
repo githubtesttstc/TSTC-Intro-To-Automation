@@ -28,6 +28,3 @@ Separate script
         }
     ]
 }
-
-Separate script
-
