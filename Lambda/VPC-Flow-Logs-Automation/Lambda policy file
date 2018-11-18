@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetRole",
+                "ec2:DescribeFlowLogs",
+                "iam:ListRoles",
+                "iam:AttachRolePolicy",
+                "iam:PutRolePolicy",
+                "ec2:DescribeVpcAttribute",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents",
+                "logs:CreateLogStream",
+                "iam:PassRole",
+                "ec2:CreateFlowLogs",
+                "ec2:DescribeVpcs",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListRolePolicies",
+                "iam:GetRolePolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
