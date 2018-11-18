@@ -47,4 +47,4 @@ def lambda_handler(event, context):
         print('Error - reason "%s"' % str(e))
 
     except Exception as e:
-print('Error - reason "%s"' % str(e))
+        print('Error - reason "%s"' % str(e))
